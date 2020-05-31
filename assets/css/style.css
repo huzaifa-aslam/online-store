@@ -6,8 +6,19 @@
     list-style: none;
 }
 
-.header .bg-light {
+
+/* menu section */
+
+#menu .bg-light {
     background-color: transparent !important;
+}
+
+#menu ul a {
+    color: white;
+}
+
+#menu ul .active {
+    background-color: brown;
 }
 
 
@@ -18,7 +29,7 @@
 }
 
 .slider {
-    margin-top: 89px;
+    margin-top: 55px;
 }
 
 

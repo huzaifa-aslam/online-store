@@ -14,7 +14,7 @@ let addToCard = () => {
 
 
 
-
+// products slidering
 $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
     var next = $(this).next();
     if (!next.length) {
