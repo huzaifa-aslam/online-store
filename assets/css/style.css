@@ -21,6 +21,11 @@
     background-color: brown;
 }
 
+#menu .dropdown-menu a {
+    background-color: #dd4046;
+    font-weight: bolder;
+}
+
 
 /* slider section */
 
@@ -81,28 +86,8 @@
 }
 
 .products .card img:hover {
-    /* transform: scale(1.5); */
+    transform: scale(1.5);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-/* contacts links */
-
-#contact .fa {
-    height: 25px;
-    width: 25px;
-    background-color: #326dc3 !important;
-}
-
-#contact a {
-    color: white;
-}
-
-
-/* footer section */
-
-.footer {
-    background-color: #326dc3;
 }
 
 .carousel-multi-item.v-2.product-carousel .carousel-inner .carousel-item.active,
@@ -185,11 +170,26 @@
     margin-bottom: -1rem;
 }
 
-.carousel-item img {
-    /* height: 209px;
-    width: 205px; */
-}
-
 .products .card button {
     width: 86%;
+}
+
+
+/* contacts links */
+
+#contact .fa {
+    height: 25px;
+    width: 25px;
+    background-color: #326dc3 !important;
+}
+
+#contact a {
+    color: white;
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #326dc3;
 }
